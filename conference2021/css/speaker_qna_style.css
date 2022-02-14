@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,700&display=swap");
+@font-face {
+  font-family: 'Gotham Black Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Black Regular"), url("../font/Gotham-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gotham Thin Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Thin Regular"), url("../font/Gotham-Thin.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+  height: 100%;
+  color: #474341;
+  word-break: keep-all;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrap {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrap .name {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+    color: #fff;
+    background: #0192a9;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 330px;
+}
+
+.qna {
+    border-top: 2px solid #000;
+}
+
+.qna ul li {
+    padding: 18px 20px;
+    border-bottom: 1px solid #dadada;
+    line-height: 28px;
+}
+
+.qna ul li .answer img {
+    width: 50px;
+}
+
+.answer span {
+  padding-left: 10px
+}
+
+.phone {
+display: none;
+}
+
+.phoneblock {
+display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrap {
+    width: 90%;
+  }
+}
